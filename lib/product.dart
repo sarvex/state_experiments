@@ -15,5 +15,4 @@ var products = <Product>[
   new Product("P8", 80.0),
   new Product("P9", 90.0),
   new Product("P10", 100.0),
-  
 ];

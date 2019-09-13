@@ -1,9 +1,8 @@
 import 'dart:async';
 
-import 'package:inherited/mycounter.dart';
+import 'my_counter.dart';
 
 class CounterBloc {
-
   final additionController = StreamController<MyCounter>();
 
   Sink<MyCounter> get add => additionController.sink;

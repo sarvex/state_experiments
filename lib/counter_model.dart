@@ -1,8 +1,8 @@
-import 'package:inherited/mycounter.dart';
+import 'my_counter.dart';
 import 'package:scoped_model/scoped_model.dart';
 
 class CounterModel extends Model {
-  MyCounter myCounter = new MyCounter(0);
+  MyCounter myCounter = MyCounter(0);
 
   int get counts => myCounter.counter;
 

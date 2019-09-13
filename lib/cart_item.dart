@@ -1,5 +1,4 @@
-
-import 'package:inherited/product.dart';
+import 'product.dart';
 
 class Cart {
   List<CartItem> items = [];

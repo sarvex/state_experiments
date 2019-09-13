@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:inherited/class1.dart';
-import 'package:inherited/class2.dart';
-import 'package:inherited/count_bloc_provider.dart';
-import 'package:inherited/counter_block.dart';
-import 'package:inherited/counter_model.dart';
-import 'package:inherited/mycounter.dart';
+import 'class_1.dart';
+import 'class_2.dart';
+import 'count_bloc_provider.dart';
+import 'counter_block.dart';
+import 'my_counter.dart';
 import 'package:random_pk/random_pk.dart';
-import 'package:scoped_model/scoped_model.dart';
 
 void main() => runApp(MyApp());
 
@@ -25,14 +23,14 @@ class HomePage extends StatefulWidget {
 
   @override
   HomePageState createState() {
-    return new HomePageState();
+    return HomePageState();
   }
 }
 
 class HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    var myCounter = new MyCounter(0);
+    var myCounter = MyCounter(0);
     CounterBloc bloc = CounterBloc();
     return CountBlocProvider(
       bloc: bloc,

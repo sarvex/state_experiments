@@ -1,10 +1,10 @@
 import 'dart:async';
 
-import 'package:inherited/cartitem.dart';
-import 'package:inherited/product.dart';
+import 'cart_item.dart';
+import 'product.dart';
 
 class CartBloc {
-  Cart _cart = new Cart();
+  Cart _cart = Cart();
 
   Sink<Product> get addition => additionController.sink;
 

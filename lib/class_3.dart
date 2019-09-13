@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:inherited/count_bloc_provider.dart';
-import 'package:inherited/counter_block.dart';
-import 'package:inherited/counter_model.dart';
+import 'count_bloc_provider.dart';
+import 'counter_block.dart';
+import 'counter_model.dart';
 import 'package:scoped_model/scoped_model.dart';
 
 class Class3 extends StatelessWidget {
@@ -12,9 +12,9 @@ class Class3 extends StatelessWidget {
       stream: bloc.itemCount,
       initialData: 0,
       builder: (context, snapshot) => Text(
-            "Class 3 : ${snapshot.data}",
-            style: Theme.of(context).textTheme.headline,
-          ),
+        "Class 3 : ${snapshot.data}",
+        style: Theme.of(context).textTheme.headline,
+      ),
     );
   }
 }

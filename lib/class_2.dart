@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:inherited/class3.dart';
+import 'class_3.dart';
 
 class Class2 extends StatelessWidget {
   @override

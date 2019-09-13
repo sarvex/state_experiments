@@ -1,5 +1,5 @@
-import 'package:inherited/cartitem.dart';
-import 'package:inherited/product.dart';
+import 'cart_item.dart';
+import 'product.dart';
 import 'package:scoped_model/scoped_model.dart';
 
 class CartModel extends Model {
